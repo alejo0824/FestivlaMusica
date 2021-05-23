@@ -1,0 +1,33 @@
+.header {
+    background-color: $verde;
+    .contehido-header {
+        padding: $separacion/2 0;
+        @include telefono {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    h1 {
+        text-align: center;
+        color: $blanco;
+        margin-bottom: 1rem;
+        @include telefono {
+            margin-bottom: 0;
+        }
+    }
+    .navegacion {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    a {
+        text-decoration: none;
+        color: $blanco;
+        font-size: 2rem;
+        text-transform: capitalize;
+        &:hover {
+            color: $amarillo;
+        }
+    }
+}
