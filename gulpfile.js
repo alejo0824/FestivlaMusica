@@ -3,7 +3,7 @@ const sass = require('gulp-sass');
 
 
 const paths ={
-    scss: 'src/scss/base/*.scss'
+    scss: 'src/scss/**/*.scss'
 }
 
 

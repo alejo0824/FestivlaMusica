@@ -1,0 +1,22 @@
+.header {
+    background-color: $verde;
+    h1 {
+        text-align: center;
+        color: $blanco;
+        margin-bottom: 1rem;
+    }
+    .navegacion {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    a {
+        text-decoration: none;
+        color: $blanco;
+        font-size: 2rem;
+        text-transform: capitalize;
+        &:hover {
+            color: $amarillo;
+        }
+    }
+}
