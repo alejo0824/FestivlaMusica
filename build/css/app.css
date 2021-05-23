@@ -396,10 +396,28 @@ h3 {
   background-color: #4cb8b3;
 }
 
+.header .contehido-header {
+  padding: 2.5rem 0;
+}
+
+@media (min-width: 480px) {
+  .header .contehido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .header h1 {
   text-align: center;
   color: #ffffff;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 480px) {
+  .header h1 {
+    margin-bottom: 0;
+  }
 }
 
 .header .navegacion {
