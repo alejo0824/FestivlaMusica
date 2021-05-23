@@ -439,6 +439,8 @@ h3 {
 
 .video {
   position: relative;
+  height: 40rem;
+  overflow: hidden;
 }
 
 .video .overlay {
@@ -459,4 +461,26 @@ h3 {
 .video video {
   display: block;
   width: 100%;
+}
+
+.contenido-video {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.contenido-video h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 7rem;
+}
+
+.contenido-video h2 span {
+  font-size: 2rem;
+  background-color: #f53856;
+  padding: 1rem 2rem;
 }
