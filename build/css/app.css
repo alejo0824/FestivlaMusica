@@ -510,3 +510,100 @@ h3 {
   color: #f53856;
   font-weight: 700;
 }
+
+.line-up {
+  background-color: #f53856;
+  padding: 2.5rem 0;
+}
+
+.line-up h3 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.line-up .dia {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenido-lineUp {
+  margin: 2.5rem auto;
+}
+
+@media (min-width: 768px) {
+  .contenido-lineUp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+  }
+}
+
+.escenario {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .escenario {
+    margin-bottom: 0;
+  }
+}
+
+.escenario .escenario-Rock,
+.escenario .edm-escenario {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.escenario .escenario-Rock::after,
+.escenario .edm-escenario::after {
+  content: '';
+  width: 20rem;
+  height: 10rem;
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.escenario .escenario-Rock::after {
+  background-image: url(../img/icono_rock.webp);
+}
+
+.escenario .edm-escenario::after {
+  background-image: url(../img/icono_edm.webp);
+}
+
+.calendario {
+  list-style: none;
+  padding: 0;
+}
+
+.calendario li {
+  padding: 2rem;
+  font-weight: 700;
+}
+
+.calendario li span {
+  font-weight: 400;
+}
+
+.fondo-verde {
+  background-color: #4cb8b3;
+  padding: 2.5rem 0;
+}
+
+.fondo-verde li:nth-child(odd) {
+  background-color: #3b9691;
+}
+
+.fondo-amarillo {
+  background-color: #fef46d;
+  padding: 2.5rem 0;
+}
+
+.fondo-amarillo li:nth-child(odd) {
+  background-color: #fef03a;
+}
