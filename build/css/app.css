@@ -484,3 +484,29 @@ h3 {
   background-color: #f53856;
   padding: 1rem 2rem;
 }
+
+.festival {
+  padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+  .festival {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+  }
+}
+
+.contenido-festival h2 {
+  font-size: 3rem;
+}
+
+.contenido-festival p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+.contenido-festival .fecha {
+  color: #f53856;
+  font-weight: 700;
+}
