@@ -25,6 +25,7 @@
   "homepage": "https://github.com/alejo082495/FestivlaMusica#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.1.0",
     "gulp-webp": "^4.0.1"
   }
