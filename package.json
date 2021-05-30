@@ -24,9 +24,16 @@
   },
   "homepage": "https://github.com/alejo082495/FestivlaMusica#readme",
   "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
-    "gulp-webp": "^4.0.1"
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.3.0"
   }
 }

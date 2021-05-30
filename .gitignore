@@ -2,3 +2,5 @@ node_modules
 package-lock.json
 video/concierto.ogg
 src/img
+*.map
+postcss.config.js
